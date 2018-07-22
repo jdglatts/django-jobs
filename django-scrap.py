@@ -9,7 +9,7 @@
 # Script to find django- jobs. Data from django's website.
 #
 #
-# ------------------ 
+
 
 import os 
 import webbrowser
