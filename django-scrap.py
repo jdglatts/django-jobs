@@ -32,9 +32,9 @@ def scrapGuy():
 				headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36'}
 				source_code = requests.get(url, headers = headers) # pass the url to requests, HTTP for humans
 				plain_text = source_code.text 
-				soup = BeautifulSoup(plain_text, "html.parser") # pass/parse the url with bs4
+				soup = BeautifulSoup(plain_text, "html.parser") # bs4
 
-				# playing w/ bs4 in 
+				# find the jobs
 				for jobs in soup.find_all("ul",{"class":"list-news"}):
 					print(jobs.get_text())
 					print('\n')
