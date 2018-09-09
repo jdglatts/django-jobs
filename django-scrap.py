@@ -6,17 +6,10 @@
 # / /_/ / ____  / / /_/ /_  / / /  /_/ // /_/ //_____/___  / / /_/ /  /_/ /(__  ) 
 # \__,_/  ___  /  \__,_/ /_/ /_/_\__, / \____/       ___  /  \____//_.___//____/  
 #        /___/                 /____/               /___/                     
-# Script to find django- jobs. Data from django's website.
+#
+# Script to find django-jobs. Right from django's website.
 #
 #
-
-# ------------------ 
-#
-#
-# Script to find django- jobs. Data from django's website.
-#
-#
-# ------------------ 
 
 import os 
 import webbrowser
